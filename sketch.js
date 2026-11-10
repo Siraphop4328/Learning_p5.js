@@ -1,9 +1,11 @@
 function setup() {
-  createCanvas(400, 400);
-  // Help blind or low-vision users understand your sketch
-  describe("A 400 by 400 pixel gray canvas.");
+  createCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
   background(220);
+  line(0, 0, 100, 500);
+  rect(10, 10, 50, 60);
+  
+
 }
