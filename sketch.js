@@ -1,11 +1,24 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  frameRate(165);
+  background(50)
 }
-
+let press = false;
 function draw() {
-  background(50);
   
-  ball();
+  
+  if(press == true) {
+    ball();
+  }
+
   water();
   
+}
+
+function mousePressed(){
+  
+  press = true;
+}
+function mouseReleased(){
+  press = false;
 }

@@ -1,7 +1,7 @@
 function ball(){
-    stroke(100);
+    noStroke();
     fill(255, 0, 0, 255);
-    circle(mouseX, mouseY, 100);
+    circle(mouseX, mouseY, 20);
 }
 
 function water(){
